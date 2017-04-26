@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Busity</string>
+    <string name="title_activity_maps">Busity</string>
+    <string name="latitude_label">Lat</string>
+    <string name="longitude_label">Lon</string>
+    <string name="last_update_time_label">Time</string>
+    <string name="search_title">Linia...</string>
+</resources>
