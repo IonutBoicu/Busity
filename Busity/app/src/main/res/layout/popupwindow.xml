@@ -54,7 +54,7 @@
             android:textSize="20sp"
             android:textColor="@color/mywhite"
             android:layout_height="wrap_content"
-            android:text="Alege ora:"/>
+            android:text="Alege ora:   "/>
         <AutoCompleteTextView
             android:id="@+id/actv3"
             android:textColor="@color/mywhite"

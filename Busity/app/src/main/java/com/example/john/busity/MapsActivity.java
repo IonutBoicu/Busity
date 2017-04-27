@@ -475,6 +475,10 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     String searchString=(String)parent.getItemAtPosition(position);
                     actv1.setText("" + searchString);
+                    actv2.setText("");
+                    actv3.setText("");
+                    tv_day.setText("");
+                    tv_time.setText("");
                     infoLine = actv1.getText().toString();
                     new StatReq().execute();
                 }
@@ -484,7 +488,10 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                     String searchString=(String)parent.getItemAtPosition(position);
+                    actv3.setText("");
                     actv2.setText("" + searchString);
+                    tv_day.setText("");
+                    tv_time.setText("");
                     Log.d("TAG", statistics.toString());
 
                     hours.clear();
